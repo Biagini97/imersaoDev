@@ -13,27 +13,18 @@
       <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
       
       <div class="boxgrade">
-        <h2>
-          <input id="text1" placeholder="Digite sua nota!">
-        </h2>
-        <h3>
-          <input id="text2" placeholder="Digite sua nota!">
-        </h3>
-        <h4>
-          <input id="text3" placeholder="Digite sua nota!">
-        </h4>
-        <h5>
-          <input id="text4" placeholder="Digite sua nota!">
-        </h5>
+       <input type="number" class="grade" id="grade1" placeholder="Digite sua nota!"><br />
+       <input type="number" class="grade" id="grade2" placeholder="Digite sua nota!"><br />
+       <input type="number" class="grade" id="grade3" placeholder="Digite sua nota!"><br />
+       <input type="number" class="grade" id="grade4" placeholder="Digite sua nota!"><br />
+       <button type="submit" class="grade" onclick="Calcular()">Calcular Média</button> 
       </div>
-      
-      <div class ="button">
-        <br>
-        <button id = "btn1">Calcular Média</button>
-      </div>
+
+      <div class ="Result" id="resultado">Resultado</div>
       </div>
       <a href="https://alura.com.br/" target="_blank">
     <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
     </a>
+    <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
