@@ -1,0 +1,50 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  min-height: 400px;
+  background-image: url('https://i0.wp.com/mamaesfacilidadesedicas.com/wp-content/uploads/2017/09/boletim-notas-online.jpg?resize=712%2C350');
+  background-color: #7c234a;
+  background-size: 100vh;
+  background-position: center ;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color:#ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color:#ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.boxgrade{
+  display: flexbox;
+  position: relative;
+  right: 305px;
+  top: 110px;
+}
+
+.button{
+  display: flexbox;
+  position: relative;
+  right: 343px;
+  top: 100px;
+}
